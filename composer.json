@@ -1,0 +1,14 @@
+{
+    "description": "Deis PHP example app",
+    "name": "deis/example-php",
+    "license": "Apache-2.0",
+    "version": "1.0.1",
+    "homepage": "https://github.com/deis/example-php",
+    "require": {
+        "php": ">=5.5",
+        "slim/slim": "~2.6"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "v67"
+    }
+}
