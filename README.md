@@ -21,14 +21,26 @@ Starting build... but first, coffee!
 -----> PHP app detected
 -----> Bootstrapping...
 -----> Installing platform packages...
-       - php (7.0.7)
+       - php (7.0.9)
        - apache (2.4.20)
        - nginx (1.8.1)
 -----> Installing dependencies...
-       Composer version 1.0.3 2016-04-29 16:30:15
+       Composer version 1.1.3 2016-06-26 15:42:08
        Loading composer repositories with package information
        Installing dependencies from lock file
-       - Installing slim/slim (2.6.2)
+       - Installing psr/http-message (1.0.1)
+       Downloading: 100%
+
+       - Installing pimple/pimple (v3.0.2)
+       Downloading: 100%
+
+       - Installing nikic/fast-route (v1.0.1)
+       Downloading: 100%
+
+       - Installing container-interop/container-interop (1.1.0)
+       Downloading: 100%
+
+       - Installing slim/slim (3.5.0)
        Downloading: 100%
 
        Generating optimized autoload files
@@ -49,8 +61,8 @@ To learn more, use 'deis help' or visit https://deis.com/
 To ssh://git@deis-builder.deis.rocks:2222/zanier-zeppelin.git
  * [new branch]      master -> master
 $ curl http://zanier-zeppelin.deis.rocks
-Powered by Deis!
-Running on container ID zanier-zeppelin-v2-web-dbj92
+Powered by Deis
+Release v2 on zanier-zeppelin-web-2969858146-wv4ss
 ```
 
 ## Additional Resources
